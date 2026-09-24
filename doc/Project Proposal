@@ -1,0 +1,159 @@
+# Project Proposal
+
+## Project Title
+
+Hotel Management System
+
+---
+
+## 1. Introduction
+
+The Hotel Management System is a software application designed to automate and manage hotel operations. The system will provide functionalities for room management, customer management, booking management, check-in and check-out processing, payment handling, and report generation.
+
+The project aims to replace manual record-keeping systems with a computerized solution that improves efficiency, accuracy, and reliability.
+
+---
+
+## 2. Background
+
+Many hotels still use manual methods for managing customer records, room reservations, and billing. These methods are time-consuming, prone to errors, and difficult to maintain.
+
+A computerized Hotel Management System will streamline operations, improve customer service, and provide accurate information for decision-making.
+
+---
+
+## 3. Problem Statement
+
+Manual hotel management processes can result in:
+
+- Loss of customer records
+- Double booking of rooms
+- Billing errors
+- Slow report generation
+- Poor data management
+
+There is a need for an automated system that efficiently manages hotel operations and stores data securely.
+
+---
+
+## 4. Project Goal
+
+To develop a Hotel Management System that automates hotel operations and improves management efficiency.
+
+---
+
+## 5. Project Objectives
+
+### Main Objective
+
+To design and develop a Hotel Management System using Java and SQLite.
+
+### Specific Objectives
+
+- Manage hotel rooms
+- Register and manage customers
+- Handle room bookings
+- Process check-ins and check-outs
+- Manage payments
+- Generate reports
+- Store data permanently in a database
+
+---
+
+## 6. Project Scope
+
+The system will include:
+
+### Room Management
+
+- Add room
+- Update room
+- Delete room
+- Search room
+
+### Customer Management
+
+- Register customer
+- Update customer information
+- Search customer
+
+### Booking Management
+
+- Create booking
+- Modify booking
+- Cancel booking
+
+### Check-In and Check-Out
+
+- Verify booking
+- Assign room
+- Generate bill
+- Process payment
+
+### Reporting
+
+- Occupancy reports
+- Revenue reports
+- Customer history reports
+
+---
+
+## 7. Technologies to be Used
+
+| Technology | Purpose |
+|------------|---------|
+| Java | Application development |
+| Gradle | Build automation |
+| SQLite | Database |
+| JDBC | Database connectivity |
+| Git | Version control |
+| GitHub | Source code management |
+| JavaFX | Graphical User Interface |
+| Lucidchart / Draw.io | UML diagrams |
+| JUnit 5 | Testing |
+
+---
+
+## 8. Expected Deliverables
+
+The project will produce:
+
+- Project Proposal
+- Requirements Specification
+- Use Case Diagram
+- ER Diagram
+- Class Diagram
+- Source Code
+- Database Schema
+- Test Cases
+- User Manual
+- Final Project Report
+- Presentation Slides
+
+---
+
+## 9. Expected Benefits
+
+### For Hotel Staff
+
+- Faster operations
+- Improved record management
+- Reduced paperwork
+
+### For Management
+
+- Better reporting
+- Revenue tracking
+- Improved decision-making
+
+### For Customers
+
+- Faster service
+- Accurate billing
+- Better booking experience
+
+---
+
+## 10. Conclusion
+
+The Hotel Management System will provide a reliable and efficient solution for managing hotel operations. By automating room management, customer management, bookings, payments, and reporting, the system will improve productivity and reduce errors associated with manual processes.
