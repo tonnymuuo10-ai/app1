@@ -1,0 +1,144 @@
+# System Design
+
+## 1. Introduction
+
+This document describes the design of the Hotel Management System. It provides the system architecture, database design, UML diagrams, and package structure used during development.
+
+---
+
+## 2. System Architecture
+
+The system follows a layered architecture:
+
+Presentation Layer (JavaFX GUI)
+
+↓
+
+Business Logic Layer (Services)
+
+↓
+
+Data Access Layer (DAO)
+
+↓
+
+SQLite Database
+
+### Components
+
+- JavaFX User Interface
+- Service Layer
+- DAO Layer
+- SQLite Database
+
+---
+
+## 3. Use Case Diagram
+
+The Use Case Diagram illustrates interactions between users and the system.
+
+### Actors
+
+- Receptionist
+- Manager
+- Customer
+
+### Main Use Cases
+
+- Room Management
+- Customer Management
+- Booking Management
+- Check-In
+- Check-Out
+- Payment Processing
+- Report Generation
+
+---
+
+## 4. ER Diagram
+
+### Entities
+
+- Customer
+- Room
+- Booking
+- Payment
+
+### Relationships
+
+- Customer creates Booking
+- Booking reserves Room
+- Booking generates Payment
+
+---
+
+## 5. Class Diagram
+
+### Classes
+
+- Room
+- Customer
+- Booking
+- Payment
+
+### Relationships
+
+- Customer → Booking
+- Room → Booking
+- Booking → Payment
+
+---
+
+## 6. Database Design
+
+### Tables
+
+- rooms
+- customers
+- bookings
+- payments
+
+### Database
+
+SQLite
+
+---
+
+## 7. Package Structure
+
+com.hotel
+
+- app
+- model
+- dao
+- service
+- database
+- exception
+- util
+- report
+
+---
+
+## 8. Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Java | Application Development |
+| Gradle | Build Automation |
+| SQLite | Database |
+| JDBC | Database Connectivity |
+| Git | Version Control |
+| GitHub | Repository Hosting |
+| JavaFX | GUI Development |
+| JUnit 5 | Testing |
+| Lucidchart | UML Diagrams |
+
+---
+
+## 9. Future Enhancements
+
+- Authentication
+- Admin Dashboard
+- Notifications
+- Analytics Dashboard
+- Online Booking
